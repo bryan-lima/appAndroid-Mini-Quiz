@@ -1,4 +1,5 @@
 <resources>
+    // Projeto/App
     <string name="app_name">Mini Quiz</string>
     <string name="projeto_name">Mini Quiz - Projeto Bilac</string>
     <string name="autor_app">Desenvolvido por Bryan Lima</string>
@@ -9,4 +10,10 @@
     <string name="start">Start</string>
     <string name="voltar">Voltar</string>
     <string name="sobre">Sobre</string>
+
+    // Quiz
+    <string name="pergunta">Pergunta / Quiz</string>
+    <string name="opcao1">Opção 1</string>
+    <string name="opcao2">Opção 2</string>
+    <string name="opcao3">Opção 3</string>
 </resources>

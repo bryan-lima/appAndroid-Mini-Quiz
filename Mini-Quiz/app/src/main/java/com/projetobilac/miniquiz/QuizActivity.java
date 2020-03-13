@@ -28,6 +28,7 @@ public class QuizActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(context, RespostaErradaActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -36,6 +37,7 @@ public class QuizActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(context, RespostaCertaActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -44,6 +46,7 @@ public class QuizActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(context, RespostaErradaActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 

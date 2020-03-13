@@ -16,35 +16,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="@string/pergunta" />
 
         <Button
             android:id="@+id/qui_btn_opcao_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/opcao1" />
 
         <Button
             android:id="@+id/qui_btn_opcao_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/opcao2" />
 
         <Button
             android:id="@+id/qui_btn_opcao_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/opcao3" />
 
         <Button
             android:id="@+id/qui_btn_voltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/voltar" />
     </LinearLayout>
 
 </ScrollView>
