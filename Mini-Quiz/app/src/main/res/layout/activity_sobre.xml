@@ -29,7 +29,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sob_img_logo_app" />
 
-    <TextView
+    <me.biubiubiu.justifytext.library.JustifyTextView
         android:id="@+id/sob_txt_sobre_app"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
