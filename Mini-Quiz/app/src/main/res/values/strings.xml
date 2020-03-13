@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Mini Quiz</string>
     <string name="projeto_name">Mini Quiz - Projeto Bilac</string>
-    <string name="autor_app">Desenvolvido por: Bryan Lima</string>
+    <string name="autor_app">Desenvolvido por Bryan Lima</string>
     <string name="versao_app">Versão 1.0</string>
     <string name="sobre_app">Este app foi desenvolvido como parte dos requisitos da disciplina de Programação para Dispositivos Móveis, pelo 5º Semestre do curso de Análise e Desenvolvimento de Sistemas (ADS), pelo Centro Universitário Etep - Campus Bilac de São José dos Campos/SP.</string>
+    <string name="link_repositorio">github.com/bryan-lima/appAndroid-Mini-Quiz</string>
 
     <string name="start">Start</string>
     <string name="voltar">Voltar</string>
