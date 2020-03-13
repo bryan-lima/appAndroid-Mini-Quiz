@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_logo_app_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SobreActivity"></activity>
+        <activity android:name=".RespostaErradaActivity"></activity>
+        <activity android:name=".RespostaCertaActivity" />
+        <activity android:name=".SobreActivity" />
         <activity android:name=".QuizActivity" />
         <activity
             android:name=".SplashScreenActivity"
