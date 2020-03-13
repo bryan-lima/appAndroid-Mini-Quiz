@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity"
-    android:background="@color/colorBkgSplashScreen">
+    android:background="@color/colorBkgSplashScreen"
+    android:theme="@style/AppCompat.TelaCheia">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/spl_img_logo_app"
