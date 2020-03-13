@@ -8,7 +8,7 @@
     android:background="@color/colorBkgSplashScreen">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imgSplashScreen"
+        android:id="@+id/spl_img_logo_app"
         android:layout_width="160dp"
         android:layout_height="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
