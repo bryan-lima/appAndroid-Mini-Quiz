@@ -112,12 +112,12 @@
     <Button
         android:id="@+id/sob_btn_voltar"
         android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_height="46dp"
         android:layout_marginBottom="32dp"
-        android:text="@string/voltar"
-        android:textSize="18sp"
         android:background="@color/colorPrimary"
+        android:text="@string/voltar"
         android:textColor="@android:color/white"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/sob_vie_linha_rodape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
