@@ -12,8 +12,9 @@
     <string name="sobre">Sobre</string>
 
     // Quiz
-    <string name="pergunta">Pergunta / Quiz</string>
-    <string name="opcao1">Opção 1</string>
-    <string name="opcao2">Opção 2</string>
-    <string name="opcao3">Opção 3</string>
+    <string name="intro_quiz">No final de 2019, na China foi descoberto um novo agente de uma família de vírus (coronavírus), que se espalhou por vários continentes sendo declarado oficialmente como pandemia em 2020 pela OMS, Organização Mundial da Saúde.</string>
+    <string name="quiz">Qual foi o nome dado à esse agente?</string>
+    <string name="opcao1">SARS-CoV</string>
+    <string name="opcao2">COVID-19</string>
+    <string name="opcao3">MERS-CoV</string>
 </resources>
