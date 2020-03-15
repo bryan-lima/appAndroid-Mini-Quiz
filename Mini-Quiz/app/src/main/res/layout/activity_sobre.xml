@@ -6,15 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".SobreActivity">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/sob_gui_hor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.033167496" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/sob_gui_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.44" />
+
     <ImageView
         android:id="@+id/sob_img_logo_app"
-        android:layout_width="0dp"
-        android:layout_height="130dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/img_quiz_neon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:src="@drawable/ic_logo_app"
+        app:layout_constraintEnd_toStartOf="@+id/sob_gui_ver"
+        app:layout_constraintTop_toTopOf="@+id/sob_gui_hor" />
+
+    <ImageView
+        android:id="@+id/sob_img_bilac"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="@+id/sob_gui_ver"
+        app:layout_constraintTop_toTopOf="@+id/sob_gui_hor"
+        app:srcCompat="@drawable/img_bilac" />
 
     <TextView
         android:id="@+id/sob_txt_nome_projeto"
@@ -60,12 +84,15 @@
 
     <TextView
         android:id="@+id/sob_txt_link_repositorio"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:text="@string/link_repositorio"
-        android:textSize="16sp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sob_txt_repositorio" />
 
