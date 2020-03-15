@@ -8,8 +8,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/mai_img_logo_app"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:src="@drawable/ic_logo_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,9 +17,9 @@
 
     <Button
         android:id="@+id/mai_btn_start"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:text="@string/start"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:background="@drawable/ic_start"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.35" />
+        app:layout_constraintGuide_percent="0.38" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -55,4 +55,5 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.033167496" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
