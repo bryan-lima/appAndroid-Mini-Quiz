@@ -15,7 +15,8 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.RespostaErrada"/>
         <activity android:name=".RespostaCertaActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.RespostaCerta"/>
         <activity android:name=".SobreActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".QuizActivity"
