@@ -12,7 +12,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".RespostaErradaActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.RespostaErrada"/>
         <activity android:name=".RespostaCertaActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".SobreActivity"
