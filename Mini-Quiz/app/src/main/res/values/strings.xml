@@ -19,4 +19,6 @@
     <string name="opcao1">SARS-CoV</string>
     <string name="opcao2">COVID-19</string>
     <string name="opcao3">MERS-CoV</string>
+    <string name="parabens">PARABÉNS!!!</string>
+    <string name="acertou">Você acertou!</string>
 </resources>
