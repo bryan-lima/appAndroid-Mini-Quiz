@@ -9,6 +9,7 @@
 
     <string name="start">Start</string>
     <string name="voltar">Voltar</string>
+    <string name="voltar_home">Voltar para Home</string>
     <string name="sobre">Sobre</string>
 
     // Quiz
