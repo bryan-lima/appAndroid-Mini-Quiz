@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/res_err_img_gif"
-        android:layout_width="200dp"
+        android:layout_width="260dp"
         android:layout_height="200dp"
         android:layout_marginTop="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,14 +17,34 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/res_err_txt_ops"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ERROU!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="50dp"
+        android:text="@string/ops"
+        android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/res_err_img_gif" />
+
+    <TextView
+        android:id="@+id/res_err_txt_errou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/errou"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/res_err_txt_ops" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/res_err_gui_hor_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.93" />
 
     <Button
         android:id="@+id/res_err_btn_tentar_novamente"
@@ -32,8 +52,8 @@
         android:layout_height="46dp"
         android:layout_marginTop="152dp"
         android:text="@string/tentar_novamente"
+        app:layout_constraintBottom_toTopOf="@+id/res_err_gui_hor_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
