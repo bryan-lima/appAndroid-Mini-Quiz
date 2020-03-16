@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        configuraNavBar();
+
         btnStart = findViewById(R.id.mai_btn_start);
         btnSobre = findViewById(R.id.mai_btn_sobre);
 
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(context, QuizActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -38,8 +41,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(context, SobreActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
+    }
+
+    private void configuraNavBar() {
+        setTitle("Home");
     }
 
     @Override
