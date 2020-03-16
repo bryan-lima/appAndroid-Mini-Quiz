@@ -1,6 +1,7 @@
 package com.projetobilac.miniquiz;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.vectordrawable.graphics.drawable.Animatable2Compat;
 
@@ -8,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -29,6 +31,8 @@ public class RespostaCertaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resposta_certa);
+
+        configuraNavBar();
 
         gifRespCerta = findViewById(R.id.res_cer_img_gif);
 
@@ -62,6 +66,27 @@ public class RespostaCertaActivity extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    private void configuraNavBar() {
+        setTitle("Acertou!");
+        ActionBar actionBar = getSupportActionBar(); // instancia objt da BAR
+        actionBar.setDisplayHomeAsUpEnabled(true); // exibe o ícone
+        actionBar.setHomeButtonEnabled(true); // habilita click
+    }
+
+    // Para inserir a ação e selecionar para qual página voltar
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                Intent intent = new Intent(context, QuizActivity.class);
+                startActivity(intent);
+                finish();
+            default:
+                break;
+        }
+        return true;
     }
 
     @Override
