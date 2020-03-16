@@ -19,7 +19,7 @@
     <Button
         android:id="@+id/res_err_btn_tentar_novamente"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="46dp"
         android:layout_marginTop="152dp"
         android:text="@string/tentar_novamente"
         app:layout_constraintEnd_toEndOf="parent"
