@@ -18,7 +18,7 @@ public class RespostaErradaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resposta_errada);
 
-        btnVoltar = findViewById(R.id.res_err_btn_voltar);
+        btnVoltar = findViewById(R.id.res_err_btn_tentar_novamente);
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
