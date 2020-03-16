@@ -21,4 +21,6 @@
     <string name="opcao3">MERS-CoV</string>
     <string name="parabens">PARABÉNS!!!</string>
     <string name="acertou">Você acertou!</string>
+    <string name="ops">OPS!!!</string>
+    <string name="errou">Errrroooooouuuuuuu!</string>
 </resources>
