@@ -12,6 +12,7 @@
     <color name="colorGreen">#4CAF50</color>
     <color name="colorGreenDark">#388E3C</color>
     <color name="colorGreenAccent">#4CAF50</color>
+    <color name="colorGreenPrimaryLight">#C8E6C9</color>
 
     <color name="cinzaClaro">#DCDCDC</color>
 </resources>
