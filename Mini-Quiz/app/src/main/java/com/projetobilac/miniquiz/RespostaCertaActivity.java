@@ -18,7 +18,7 @@ public class RespostaCertaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resposta_certa);
 
-        btnRetornarMain = findViewById(R.id.res_cer_btn_retornar_main);
+        btnRetornarMain = findViewById(R.id.res_cer_btn_voltar_home);
         btnRetornarMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
